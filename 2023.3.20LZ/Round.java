@@ -10,6 +10,12 @@ public class Round{
         double S = pi * r * r;
         double V = 4.0 / 3.0 * pi * r * r * r;
         double Sall = 4.0 * pi * r * r;
-        double V
+        double Vyuanzhu = S * h;
+
+        System.out.println("周长为:" + C);
+        System.out.println("圆面积:" + S);
+        System.out.println("圆球表面积:" + Sall);
+        System.out.println("圆球体积:" + V);
+        System.out.println("圆柱体积:" + Vyuanzhu);
     }
 }
